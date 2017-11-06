@@ -1,0 +1,45 @@
+
+html, body {
+  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+ th, td {
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  font-family: 'Lato', sans-serif;
+
+}
+
+#timer {
+  font-size: 50px;
+  font-family: 'Lato';
+}
+
+h1{
+	padding-bottom: 15px;
+}
+button{
+	height: 35px;
+	width: 100px;
+
+}
+#stopwatch{
+	border: 1px solid black;
+	padding: 50px;
+	margin-bottom: auto;
+}
+p {
+  margin: 8px 23px 50px;
+}
+
