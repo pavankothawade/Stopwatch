@@ -1,25 +1,37 @@
 
-html, body {
+body {
   
   width: 100%;
   height: 100%;
   text-align: center;
-  
-}
- th, td {
-    border: 1px solid black;
-    margin-bottom: 20px;
-
-}
-
-body {
+  background: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1500&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
   font-family: 'Lato', sans-serif;
+}
+ 
+td {
+    border: 1px solid white;
+    margin-bottom: 20px;
+    color: white;
 
 }
+th{
+  color: white;
+
+}
+#title, #name, #timer, #history{
+  color: white;
+}
+
+#reset{
+  margin-left: 15px;
+}
+
 
 #timer {
   font-size: 50px;
@@ -38,8 +50,10 @@ button{
 	border: 1px solid black;
 	padding: 50px;
 	margin-bottom: auto;
+  margin-top: 20px;
 }
 p {
   margin: 8px 23px 50px;
 }
+
 

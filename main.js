@@ -21,6 +21,7 @@ var watch = new Stopwatch(timer);
 
 function start() {
   toggleBtn.textContent = 'Stop';
+  
   watch.start();
 }
 
