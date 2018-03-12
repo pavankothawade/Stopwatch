@@ -3,7 +3,7 @@ var toggleBtn = document.getElementById('toggle');
 var resetBtn = document.getElementById('reset');
 var x = document.getElementById("LatLong");
 var locationHistory;
-var APIKey = "AIzaSyBUbI8iqT7MIOXXHvGcIUdDvwIR3v4r1X8";
+var APIKey = "***************************************";
 var index;
 
 try {
